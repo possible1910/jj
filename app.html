@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>STAYPAID CREATOR</title>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="STAYPAID">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#000000">
+
+<link rel="apple-touch-icon" href="creator/icon.PNG">
+<link rel="icon" href="creator/icon.PNG">
+<link rel="manifest" href="manifest.json">
+
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 28px;
+  box-shadow: 0 12px 30px rgba(255, 215, 0, 0.3);
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  letter-spacing: 1px;
+}
+
+p {
+  color: #aaa;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 40px 0;
+  max-width: 280px;
+}
+
+.btn {
+  background: #f5b400;
+  color: #000;
+  border: none;
+  padding: 16px 36px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin: 8px 0;
+  width: 220px;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #f5b400;
+  border: 2px solid #f5b400;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <img src="creator/icon.PNG" alt="STAYPAID">
+
+  <h1>Welcome</h1>
+  <p>You're now inside STAYPAID CREATOR. This page stays full-screen when opened from your Home Screen.</p>
+
+  <button class="btn" onclick="alert('Replace this with your real action')">
+    Continue
+  </button>
+
+  <button class="btn btn-secondary" onclick="location.href='index.html'">
+    Back
+  </button>
+</div>
+
+</body>
+</html>
